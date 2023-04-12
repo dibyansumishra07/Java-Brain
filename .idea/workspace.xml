@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2e60c78-87c8-47b8-b85a-182814f2d716" name="Changes" comment="Code to find word count of a camelcase word">
-      <change afterPath="$PROJECT_DIR$/src/ObjectCreation/ObjectCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Random/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/BalancedBraces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/RemoveRepeatedWordsFromString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/StrongPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/TwoCharacter.java" afterDir="false" />
+    <list default="true" id="b2e60c78-87c8-47b8-b85a-182814f2d716" name="Changes" comment="Problem Solving Programs">
+      <change afterPath="$PROJECT_DIR$/src/Collections/CollectionIntroduction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,26 +33,31 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KVLJTm3BPb4BePtYCp8ku5H5rF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Software Development/BackEnd/Java/Java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/Software Development/Projects/Learning/EmployeeData",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
-  <component name="RunManager" selected="Application.ObjectCount">
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.B" />
+}]]></component>
+  <component name="RunManager" selected="Application.CollectionIntroduction">
+    <configuration name="Calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Calculate" />
       <module name="Java-Brain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="OOPS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectCreation.ObjectCount" />
+    <configuration name="CollectionIntroduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.CollectionIntroduction" />
       <module name="Java-Brain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectCreation.*" />
+          <option name="PATTERN" value="Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveRepeatedWordsFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.RemoveRepeatedWordsFromString" />
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Demo" />
       <module name="Java-Brain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="OOPS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrongPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.StrongPassword" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Demo" />
       <module name="Java-Brain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="OOPS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Random.Test" />
+    <configuration name="ListOfLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.ListOfLists" />
       <module name="Java-Brain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Random.*" />
+          <option name="PATTERN" value="Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObjectCount" />
-        <item itemvalue="Application.B" />
-        <item itemvalue="Application.StrongPassword" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.RemoveRepeatedWordsFromString" />
+        <item itemvalue="Application.CollectionIntroduction" />
+        <item itemvalue="Application.Calculate" />
+        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.ListOfLists" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674056865937</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Problem Solving Programs">
+      <created>1674827339524</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674827339524</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Problem Solving Programs">
+      <created>1677928051545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677928051545</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +180,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Code to find word count of a camelcase word" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code to find word count of a camelcase word" />
+    <MESSAGE value="Problem Solving Programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem Solving Programs" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Collections/ListOfLists.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
