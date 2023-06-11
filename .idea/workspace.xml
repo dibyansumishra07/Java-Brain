@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2e60c78-87c8-47b8-b85a-182814f2d716" name="Changes" comment="Problem Solving Programs">
-      <change afterPath="$PROJECT_DIR$/src/Collections/CollectionIntroduction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Documents/FSD RoadMap.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniApplication/logGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +44,29 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/Software Development/Projects/Learning/EmployeeData",
+    "last_opened_file_path": "E:/Software Development/BackEnd/Java",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Software Development\BackEnd\Java\Java-Brain\src\Intermediate" />
+      <recent name="E:\Software Development\BackEnd\Java\Java-Brain\src\BackToBasics" />
+      <recent name="E:\Software Development\BackEnd\Java\Java-Brain\src\problemsolving" />
+      <recent name="E:\Software Development\BackEnd\Java\Java-Brain\src\Documents" />
+      <recent name="E:\Software Development\BackEnd\Java\Java-Brain\src\MiniApplication" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.CollectionIntroduction">
     <configuration name="Calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Calculate" />
+      <option name="MAIN_CLASS_NAME" value="BackToBasics.oopsConcepts.Calculate" />
       <module name="Java-Brain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.*" />
+          <option name="PATTERN" value="BackToBasics.oopsConcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,11 +101,24 @@
       </method>
     </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Demo" />
+      <option name="MAIN_CLASS_NAME" value="BackToBasics.oopsConcepts.Demo" />
       <module name="Java-Brain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.*" />
+          <option name="PATTERN" value="BackToBasics.oopsConcepts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BackToBasics.oopsConcepts.Demo" />
+      <module name="Java-Brain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BackToBasics.oopsConcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

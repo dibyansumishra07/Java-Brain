@@ -1,4 +1,4 @@
-package OOPS;
+package BackToBasics.oopsConcepts;
 
 public class ObjectCount {
 
