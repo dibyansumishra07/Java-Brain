@@ -1,4 +1,4 @@
-package comparableAndComparator;
+package Intermediate.comparableAndComparator;
 
 public class Keyboards implements Comparable<Keyboards> {
 

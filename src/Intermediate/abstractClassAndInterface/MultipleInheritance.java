@@ -1,7 +1,7 @@
 
-package abstractClassAndInterface;
+package Intermediate.abstractClassAndInterface;
 
-interface A extends MarkerInterfaceExample {
+interface A extends abstractClassAndInterface.MarkerInterfaceExample {
 	default void show() {
 		System.out.println("FROM A");
 	}
@@ -26,7 +26,7 @@ public class MultipleInheritance implements B {
 	public static void main(String[] args) {
 		B b = new MultipleInheritance();
 
-		if (b instanceof MarkerInterfaceExample) {
+		if (b instanceof abstractClassAndInterface.MarkerInterfaceExample) {
 			System.out.println("Hann Haan me Marker ka beta hu");
 		}
 		b.show();

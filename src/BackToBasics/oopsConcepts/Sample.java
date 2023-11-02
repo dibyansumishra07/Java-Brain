@@ -15,7 +15,8 @@ public interface Sample {
  */
 class Demo implements Sample {
     public static void main(String[] args) {
+        Demo demo=new Demo();
         Sample.text();
-        new Demo().hello();
+        demo.hello();
     }
 }
