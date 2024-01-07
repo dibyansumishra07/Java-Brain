@@ -20,7 +20,6 @@ public class ListOfLists {
         List<Person> listOfPerson = new ArrayList<>();
         listOfPerson.add(new Person(1, "Dibyansu"));
         listOfPerson.add(new Person(1, "Shruti"));
-        listOfPerson.add(new Person(2, "Litu"));
         listOfPerson.add(new Person(3, "Gitu"));
         listOfPerson.add(new Person(4, "Bisu"));
         List<List<Person>> listOfListOfPerson = new ArrayList<>();

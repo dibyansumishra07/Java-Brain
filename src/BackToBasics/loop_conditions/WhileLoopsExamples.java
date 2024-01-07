@@ -12,6 +12,7 @@ public class WhileLoopsExamples {
 		while(i<5)
 		{
 			i++;
+			System.out.println(i);
 		}
 		return i;
 	}

@@ -1,4 +1,4 @@
-package fun;
+package BackToBasics.fun;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,6 @@ public class LetsDecide {
 
 		Random random = new Random();
 		return decisions.get(random.nextInt(decisions.size()));
-		
 
 	}
 
@@ -25,10 +24,10 @@ public class LetsDecide {
 //			decesions.add(sc.next());
 //		}
 
-		decesions.add("MUM");
 		decesions.add("HYD");
 		decesions.add("BGLR");
-	
+		decesions.add("MUM");
+
 		System.out.println(LetsDecide.getRandomDecesion(decesions));
 
 	}

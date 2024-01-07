@@ -1,4 +1,4 @@
-package conditions;
+package BackToBasics.conditions;
 
 public class ConditionExaples {
 	static int count=0;

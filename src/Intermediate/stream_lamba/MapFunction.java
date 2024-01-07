@@ -13,7 +13,7 @@ public class MapFunction {
 	    List<Integer> even = numbers.stream()
 	                                .map(s -> Integer.valueOf(s))
 //	                                .filter(number -> number % 2 == 0)
-	                                .collect(Collectors.toList());
+	                                .toList();
 
 	    System.out.println("processed list, only even numbers: " + even);
 

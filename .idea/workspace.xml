@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2e60c78-87c8-47b8-b85a-182814f2d716" name="Changes" comment="All System Java Files Pushing">
-      <change afterPath="$PROJECT_DIR$/src/Strings/CheckForASpecificString.java" afterDir="false" />
+    <list default="true" id="b2e60c78-87c8-47b8-b85a-182814f2d716" name="Changes" comment="New Jav Files">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackToBasics/OperatorExamples/ArithimaticOperatorsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/OperatorExamples/ArithimaticOperatorsExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackToBasics/arrayExample/ArrayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/arrayExample/ArrayExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackToBasics/conditions/ConditionExaples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/conditions/ConditionExaples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackToBasics/fun/LetsDecide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/fun/LetsDecide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackToBasics/loop_conditions/WhileLoopsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/loop_conditions/WhileLoopsExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Documents/FSD RoadMap.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/Documents/FSD RoadMap.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Intermediate/abstractClassAndInterface/MultipleInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/abstractClassAndInterface/MultipleInheritance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Intermediate/comparableAndComparator/Keyboards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/comparableAndComparator/Keyboards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Intermediate/comparableAndComparator/LetsCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/comparableAndComparator/LetsCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiniApplication/logGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiniApplication/logGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackToBasics/shruti/ArrayListFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/shruti/ArrayListFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackToBasics/variable/BooleanExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/variable/BooleanExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/ListOfLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/ListOfLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/sortingAndSearching/SortTheString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/sortingAndSearching/SortTheString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/stream_lamba/MapFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/stream_lamba/MapFunction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +43,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2KVLJTm3BPb4BePtYCp8ku5H5rF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,8 +60,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Software Development/BackEnd/Java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Software Development/BackEnd/Java/Java-Brain&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -68,6 +77,82 @@
       <recent name="E:\Software Development\BackEnd\Java\Java-Brain\src\Documents" />
       <recent name="E:\Software Development\BackEnd\Java\Java-Brain\src\MiniApplication" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.SortTheString">
+    <configuration name="AbstractExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractClassAndInterface.AbstractExamples" />
+      <module name="Java-Brain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstractClassAndInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClayCapital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectionFramrework.ClayCapital" />
+      <module name="Java-Brain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collectionFramrework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcurrentModificationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectionFramrework.ConcurrentModificationExample" />
+      <module name="Java-Brain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collectionFramrework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListOfLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.ListOfLists" />
+      <module name="Java-Brain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTheString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sortingAndSearching.SortTheString" />
+      <module name="Java-Brain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sortingAndSearching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SortTheString" />
+        <item itemvalue="Application.ConcurrentModificationExample" />
+        <item itemvalue="Application.ClayCapital" />
+        <item itemvalue="Application.AbstractExamples" />
+        <item itemvalue="Application.ListOfLists" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -120,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688761960861</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="New Jav Files">
+      <option name="closed" value="true" />
+      <created>1698912103377</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698912103377</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,25 +231,21 @@
     <MESSAGE value="Code to find word count of a camelcase word" />
     <MESSAGE value="Problem Solving Programs" />
     <MESSAGE value="All System Java Files Pushing" />
-    <option name="LAST_COMMIT_MESSAGE" value="All System Java Files Pushing" />
+    <MESSAGE value="New Jav Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Jav Files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Collections/ListOfLists.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Intermediate/abstractClassAndInterface/MultipleInheritance.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Strings/CheckForASpecificString.java</url>
           <line>6</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/CamelCaseWordCount.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
