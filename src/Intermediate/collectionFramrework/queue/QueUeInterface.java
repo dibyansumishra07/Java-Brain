@@ -1,4 +1,4 @@
-package collectionFramrework;
+package Intermediate.collectionFramrework.queue;
 
 import java.util.Iterator;
 import java.util.PriorityQueue;

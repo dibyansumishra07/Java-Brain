@@ -5,19 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2e60c78-87c8-47b8-b85a-182814f2d716" name="Changes" comment="New Jav Files">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/ComparableComparator/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/ComparableComparator/StudentNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/arrayExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/classExamples/MySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/immutableConcepts/ImmutableClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/immutableConcepts/ImmutableClassWithEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/immutableConcepts/PlainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/Inheritance/ChildClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/Inheritance/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/Inheritance/ParentClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/InheritanceExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/PolymerphismExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/innerClasses/AnonymousInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/innerClasses/LocalInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/innerClasses/MemberInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/innerClasses/StaticNestedClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackToBasics/variable/JavaArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/abstractClassAndInterface/FunctionalInterfaceMethodParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/HashTableExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/Map/MapSortingFiltering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/Map/SortMapValuesAscending.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/Map/Util_StringLengthComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/conceptual/coupling/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/conceptual/coupling/ShoppingCartLooselyCoupled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/conceptual/coupling/ShoppingCartTightlyCoupled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/exceptionHandling/checkExc/ClassNotFoundExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/exceptionHandling/checkExc/ConcurrentModificationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/exceptionHandling/checkExc/IOExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/exceptionHandling/checkExc/RuntimeExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/exceptionHandling/checkExc/SQLExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/exceptionHandling/errorExample/OutOfMemoryErrorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/exceptionHandling/errorExample/StackOverflowExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/exceptionHandling/errorExample/VirtualMachineErrorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/stream_lambda/Lambda2024.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intermediate/stream_lambda/Stream2024.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/SCPExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/StringExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/StringManipulations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsolving/ArrayExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsolving/MaxOccurringCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackToBasics/OperatorExamples/ArithimaticOperatorsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/OperatorExamples/ArithimaticOperatorsExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackToBasics/arrayExample/ArrayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/arrayExample/ArrayExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackToBasics/conditions/ConditionExaples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/conditions/ConditionExaples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackToBasics/fun/LetsDecide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/fun/LetsDecide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackToBasics/loop_conditions/WhileLoopsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/loop_conditions/WhileLoopsExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/oopsConcepts/Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackToBasics/shruti/ArrayListFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/shruti/ArrayListFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackToBasics/variable/BooleanExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackToBasics/variable/BooleanExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/ListOfLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/ListOfLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Intermediate/sortingAndSearching/SortTheString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/sortingAndSearching/SortTheString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Intermediate/stream_lamba/MapFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/stream_lamba/MapFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSAALGO/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSAALGO/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSAALGO/LinkedList/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Documents/FSD RoadMap.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/Documents/FSD RoadMap.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/abstractClassAndInterface/FunctionalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/abstractClassAndInterface/FunctionalExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/ConcurrentModificationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/ConcurrentModificationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/ListInterfaceExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/List/ListInterfaceExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/MapExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/Map/MapHackerRankGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/QueUeInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/queue/QueUeInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/SetInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/collectionFramrework/Set/SetInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/comparableAndComparator/Keyboards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/comparableAndComparator/Keyboards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/exceptionHandling/TryCatchExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/exceptionHandling/TryCatchExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/stream_lamba/FindEven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/stream_lamba/LambdaExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/stream_lamba/MapFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/stream_lamba/StreamRnD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intermediate/stream_lambda/StreamRnD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Intermediate/stream_lamba/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/StrongPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/StrongPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemsolving/HighestRepetativeCharInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemsolving/HighestRepetativeCharInAString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +88,24 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dibyansumishra07&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dibyansumishra07/Java-Brain.git&quot;,
+    &quot;accountId&quot;: &quot;428c965d-912e-4fd7-a1f7-95e3ddaff849&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2KVLJTm3BPb4BePtYCp8ku5H5rF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,17 +116,54 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.ArrayExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConcurrentModificationExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GFG.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HashTableExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HighestRepetativeCharInAString.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.IOExceptionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lambda2024.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LetsCompare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListInterfaceExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MapExamples.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MapSortingFiltering.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxOccurringCharacter.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OutOfMemoryErrorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PolymerphismExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SCPExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SQLExceptionExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SortTheString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackOverflowExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stream2024.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamLamda2024.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamRnD.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringManipulations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StrongPassword.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryCatchExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VirtualMachineErrorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.collectionFramrework.ConcurrentModificationExample.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Software Development/BackEnd/Java/Java-Brain&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Software Development/Projects/ExpenseTracker&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -78,13 +175,13 @@
       <recent name="E:\Software Development\BackEnd\Java\Java-Brain\src\MiniApplication" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortTheString">
-    <configuration name="AbstractExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstractClassAndInterface.AbstractExamples" />
+  <component name="RunManager" selected="Application.Stream2024">
+    <configuration name="HashTableExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Intermediate.collectionFramrework.HashTableExamples" />
       <module name="Java-Brain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstractClassAndInterface.*" />
+          <option name="PATTERN" value="Intermediate.collectionFramrework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClayCapital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectionFramrework.ClayCapital" />
+    <configuration name="ListInterfaceExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Intermediate.collectionFramrework.List.ListInterfaceExamples" />
       <module name="Java-Brain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectionFramrework.*" />
+          <option name="PATTERN" value="Intermediate.collectionFramrework.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcurrentModificationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectionFramrework.ConcurrentModificationExample" />
+    <configuration name="MapHackerRankGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Intermediate.collectionFramrework.Map.MapHackerRankGame" />
       <module name="Java-Brain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectionFramrework.*" />
+          <option name="PATTERN" value="Intermediate.collectionFramrework.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListOfLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.ListOfLists" />
+    <configuration name="PolymerphismExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BackToBasics.oopsConcepts.PolymerphismExample" />
       <module name="Java-Brain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.*" />
+          <option name="PATTERN" value="BackToBasics.oopsConcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTheString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sortingAndSearching.SortTheString" />
+    <configuration name="Stream2024" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Intermediate.stream_lambda.Stream2024" />
       <module name="Java-Brain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sortingAndSearching.*" />
+          <option name="PATTERN" value="Intermediate.stream_lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortTheString" />
-        <item itemvalue="Application.ConcurrentModificationExample" />
-        <item itemvalue="Application.ClayCapital" />
-        <item itemvalue="Application.AbstractExamples" />
-        <item itemvalue="Application.ListOfLists" />
+        <item itemvalue="Application.Stream2024" />
+        <item itemvalue="Application.PolymerphismExample" />
+        <item itemvalue="Application.MapHackerRankGame" />
+        <item itemvalue="Application.ListInterfaceExamples" />
+        <item itemvalue="Application.HashTableExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698912103377</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="New Jav Files">
+      <option name="closed" value="true" />
+      <created>1704604323512</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704604323512</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +351,61 @@
           <url>file://$PROJECT_DIR$/src/Strings/CamelCaseWordCount.java</url>
           <line>16</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problemsolving/ArrayExamples.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BackToBasics/variable/JavaArrays.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Intermediate/exceptionHandling/checkExc/SQLExceptionExample.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problemsolving/MaxOccurringCharacter.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problemsolving/MaxOccurringCharacter.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BackToBasics/immutableConcepts/PlainClass.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BackToBasics/arrayExample/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Intermediate/exceptionHandling/checkExc/ConcurrentModificationExample.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Intermediate/collectionFramrework/Map/MapSortingFiltering.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Intermediate/stream_lambda/Lambda2024.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Intermediate/collectionFramrework/List/ListInterfaceExamples.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

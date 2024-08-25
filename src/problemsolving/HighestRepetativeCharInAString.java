@@ -22,14 +22,14 @@ public class HighestRepetativeCharInAString {
 		 * Declare 
 		 * */
 		
-		char[] strToArray = str.toCharArray();
 		Map<Character, Integer> map = new HashMap<>();
+		Map.Entry<Character, Integer> maxEntry = null;
 
+		char[] strToArray = str.toCharArray();
 		for (Character c : strToArray) {
 			map.put(c, map.containsKey(c) ? map.get(c) + 1 : 1);
 		}
-		Map.Entry<Character, Integer> maxEntry = null;
-		
+
 		for (Map.Entry<Character, Integer> entry : map.entrySet())
 		{
 		    if (maxEntry == null || entry.getValue().compareTo(maxEntry.getValue()) > 0)

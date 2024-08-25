@@ -1,4 +1,4 @@
-package collectionFramrework;
+package Intermediate.collectionFramrework;
 
 import java.util.ArrayList;
 import java.util.Iterator;

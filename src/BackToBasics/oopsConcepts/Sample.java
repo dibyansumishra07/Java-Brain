@@ -16,6 +16,9 @@ interface Check {
     default void hello(){
         System.out.println("hello default method from Check");
     }
+    static void doSomething(){
+
+    }
 }
 /**
  * static methods in interface can only be executed by calling it with an interfaceName

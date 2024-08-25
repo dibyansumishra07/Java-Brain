@@ -1,4 +1,4 @@
-package collectionFramrework;
+package Intermediate.collectionFramrework.Set;
 
 import java.util.HashSet;
 import java.util.Iterator;

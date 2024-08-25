@@ -55,7 +55,7 @@ public class StrongPassword {
     }
 
     public static void main(String[] args) {
-        String password = "PZ";
+        String password = "PZ123414123412%$WSs";
         System.out.println(minimumNumber(password.length(), password));
     }
 }

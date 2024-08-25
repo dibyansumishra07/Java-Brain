@@ -1,4 +1,4 @@
-package abstractClassAndInterface;
+package Intermediate.abstractClassAndInterface;
 
 @FunctionalInterface
 public interface FunctionalExample {
