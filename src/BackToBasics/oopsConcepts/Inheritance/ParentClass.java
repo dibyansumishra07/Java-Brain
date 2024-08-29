@@ -2,6 +2,7 @@ package BackToBasics.oopsConcepts.Inheritance;
 
 public class ParentClass {
     int num;
-    protected void display() {
+    protected void display() throws ArithmeticException {
+        throw new ArithmeticException();
     }
 }
