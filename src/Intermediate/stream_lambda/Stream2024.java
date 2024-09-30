@@ -1,27 +1,23 @@
 package Intermediate.stream_lambda;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import Intermediate.stream_lambda.streamWithComplexObjects.Product;
+import Intermediate.stream_lambda.streamWithComplexObjects.SalesMan;
+
+import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Stream2024 {
     public static void main(String[] args) {
-        List<Integer> list2 = Arrays.asList(2, 40, 50, 60, 78, 79, 77, 65);
+        List<Integer> numbers = Arrays.asList(2, 40, 50, 60, 78, 79, 77, 65);
         List<String> names = Arrays.asList("John", "Jane", "Jack");
-        dataManipulateUsingStream(list2, names);
+        Stream<Object> streamWithDifferentDataTypes = Stream.of(10, "10", 10.0, new Product(10));
+        findRepetitiveCharacter("Siddhhu");
+        dataManipulateUsingStream(numbers, names);
     }
 
-    //TODO: Stream Filter methods
-    private static void streamFilterFunction(List<Integer> list) {
-        List<Integer> oddNumbers = list.stream().filter(n -> n % 2 != 0).toList();
-        List<Integer> evenNumbers = list.stream().filter(n -> n % 2 == 0).toList();
-        System.out.println("oddNumbers: " + oddNumbers);
-        System.out.println("evenNumbers: " + evenNumbers);
-    }
 
     //TODO: Stream sorting methods
     private static void streamSortingMethods(List<Integer> list) {
@@ -41,10 +37,10 @@ public class Stream2024 {
     private static void dataManipulateUsingStream(List<Integer> list, List<String> names) {
         // Find multiply of 2 of all elements
         List<Integer> newList = list.stream().map(n -> n * 2).toList();
-        // Find Sum of all odd numbers
-        System.out.println("Sum of stream using IntStream or MapToInt: "+list.stream().filter(i -> i % 2 != 0).mapToInt(i -> i).sum());
-        System.out.println("Sum of stream using IntStream or MapToInt: "+list.stream().mapToInt(i->i).sum());
+        // Find Sum of all numbers
+        System.out.println("Stream-Sum IntStream or MapToInt: "+list.stream().filter(i -> i % 2 != 0).mapToInt(i -> i).sum());
         System.out.println("Sum of stream using reduce: "+list.stream().reduce(0, Integer::sum));
+        System.out.println("Average of stream: "+list.stream().mapToInt(i->i).average());
         // Make all strings in a list to upper case or lower case
         System.out.println("Names in upper case: " + names.stream().map(String::toUpperCase).toList());
         System.out.println("Distinct numbers: " + list.stream().distinct().toList());
@@ -63,11 +59,9 @@ public class Stream2024 {
         // Check if all elements in the list are even
         boolean allEven = list.stream().allMatch(i -> i % 2 == 0);
         System.out.println("All elements in the list are even: " + allEven);
-
         // Check if any element in the list is even
         boolean anyEven = list.stream().anyMatch(i -> i % 2 == 0);
         System.out.println("Any element in the list is even: " + anyEven);
-
         // Check if none of the elements in the list is even
         boolean noneEven = list.stream().noneMatch(i -> i % 2 == 0);
         System.out.println("None of the elements in the list is even: " + noneEven);
@@ -77,19 +71,15 @@ public class Stream2024 {
     private static void exploreDifferentStreamMethods() {
         List<String> names = Arrays.asList("Aman", "Dibyansu", "Mayank", "Bala", "Raghu");
         // filter(Predicate): (predicate: boolean valued function)
-        names.stream().filter(i -> i.startsWith("A")).collect(Collectors.toList()).forEach(i -> System.out.println(i));
-
+        names.stream().filter(i -> i.startsWith("A")).toList().forEach(System.out::println);
         // map(function): We can perform operation on each element
         List<Integer> list2 = Arrays.asList(2, 40, 50, 60, 78, 79, 77, 65);
-        list2.stream().map(i -> i * 2).collect(Collectors.toList()).forEach(i -> System.out.println(i));
-
+        list2.stream().map(i -> i * 2).toList().forEach(System.out::println);
         // sort:
         list2.stream().sorted().forEach(System.out::println);
-
         // max min
-        Integer min = list2.stream().min((x, y) -> x.compareTo(y)).get();
+        Integer min = list2.stream().min(Integer::compareTo).get();
         Integer max = list2.stream().max((x, y) -> x.compareTo(y)).get();
-
     }
 
     private static void conceptOfFlatMap() {
@@ -107,9 +97,29 @@ public class Stream2024 {
         Stream<Object> build = Stream.builder().build();
         // 4 Int stream
         IntStream stream = Arrays.stream(new int[]{1, 2, 3});
+        Stream<String> charStream = Arrays.stream(new String[]{"A","B","C","D"});
         //5 Collection list, set
         List<Integer> list2 = Arrays.asList(2, 40, 50, 60, 78, 79, 77, 65);
         list2.stream().forEach(i -> System.out.println(i));
     }
+    public void groupByStream(List<Integer> list){
+        Map<Integer, List<Integer>> groupedMap = list.stream().collect(Collectors.groupingBy(Integer::intValue));
+        groupedMap.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
+    }
 
+    // Problem Solving Using Stream
+    public static void findRepetitiveCharacter(String name){
+        List<Character> characters = name.chars().mapToObj(c -> (char) c).toList();
+        Map<Character, Long> characterCountMap = characters.stream().collect(Collectors.groupingBy(c -> c, Collectors.counting()));
+        characterCountMap.entrySet().stream()
+               .filter(entry -> entry.getValue() > 1)
+                .peek(entry -> System.out.println("Peek: "+entry))
+               .forEach(entry -> System.out.println("Character: " + entry.getKey() + ", Count: " + entry.getValue()));
+    }
+//    TODO: Method for custom collector
+
+
+    private static void differentObjectStreams(Stream<Object> streamWithDifferentDataTypes) {
+        streamWithDifferentDataTypes.filter(i -> i instanceof Number).forEach(System.out::println);
+    }
 }

@@ -1,18 +1,14 @@
-package variable;
+package BackToBasics.variable;
 
 public class BooleanExample {
 
 	public static void main(String[] args) {
-		boolean x=false;
-		
-		if(x==false)
-		{
-			System.out.println("TRUE");
-		}
-		else
-		{
-			System.out.println("FALSE");
-		}
+		boolean x=true;
+		Boolean wrapperBoolean = true;
+		Boolean wrapperBooleanObject = new Boolean(true);
+		System.out.println(wrapperBoolean==wrapperBooleanObject);
+		System.out.println(wrapperBoolean.equals(wrapperBooleanObject));
+
 	}
 
 }

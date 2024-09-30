@@ -3,6 +3,8 @@ package Intermediate.stream_lambda;
 import Intermediate.abstractClassAndInterface.FunctionalExample;
 import Intermediate.abstractClassAndInterface.FunctionalInterfaceMethodParam;
 
+import java.util.Comparator;
+
 /*
 * This was introduced in java 8
 * We can use it with only on functional interface(E,g, Runnable, Callable, and Comparable)
@@ -18,8 +20,18 @@ import Intermediate.abstractClassAndInterface.FunctionalInterfaceMethodParam;
 * */
 public class Lambda2024 {
     public static void main(String[] args) {
-        consumeFunctionalInterfaces();
+        //consumeFunctionalInterfaces();
+        System.out.println(lamdaWithReturnType());
     }
+
+    private static int lamdaWithReturnType() {
+        FunctionalInterfaceDemo fiDemo = (i) -> {
+            System.out.println("Method Body");
+            return  2;
+        };
+        return fiDemo.write(9);
+    }
+
 
     private static void consumeFunctionalInterfaces() {
         // Using a new class itself and implement interface and override

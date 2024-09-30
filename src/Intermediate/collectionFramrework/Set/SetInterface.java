@@ -10,8 +10,9 @@ public class SetInterface {
 
 	public static void main(String[] args) {
 
-		 checkHashSet();
+//		 checkHashSet();
 //		checkLinkedHashSet();
+		checkTreeSet();
 	}
 
 	private static void checkHashSet() {

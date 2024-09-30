@@ -10,8 +10,8 @@ public class StringEncryption {
 
 
     private static String getEncryptedString(String s, int incrementCount) {
-        char sArr[] = s.toCharArray();
-        char sArr2[];
+        char[] sArr = s.toCharArray();
+        char[] sArr2;
         Pattern p = Pattern.compile("[^a-z0-9 ]", Pattern.CASE_INSENSITIVE);
         Matcher m = p.matcher(s);
         boolean check = m.find();

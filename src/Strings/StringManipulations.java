@@ -26,8 +26,9 @@ public class StringManipulations {
         int maxOccurance = 0;
         char maxChar = 0;
         for (char c : charArr) {
-            charCountMap.put(c, charCountMap.containsKey(c) ? charCountMap.get(c) + 1 : 1);
+            charCountMap.put(c, charCountMap.getOrDefault(c,0)+1);
         }
+
         for (Map.Entry entry : charCountMap.entrySet()) {
             if ((Integer) entry.getValue() > maxOccurance) {
                 maxOccurance = (Integer) entry.getValue();

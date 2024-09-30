@@ -4,7 +4,8 @@ public interface Sample {
     public static void text() {
         System.out.println("Hello static method");
     }
-    default void hello(){
+
+    default void hello() {
         System.out.println("hello default method from Sample");
     }
 
@@ -13,13 +14,16 @@ public interface Sample {
 
 interface Check {
     abstract void say();
-    default void hello(){
+
+    default void hello() {
         System.out.println("hello default method from Check");
     }
-    static void doSomething(){
+
+    static void doSomething() {
 
     }
 }
+
 /**
  * static methods in interface can only be executed by calling it with an interfaceName
  * default methods in interface can only be executed by calling it with an instance of class implementing the interface
@@ -36,7 +40,7 @@ class Demo implements Sample, Check {
     }
 
     public static void main(String[] args) {
-        Demo demo=new Demo();
+        Demo demo = new Demo();
         Sample.text();
         demo.say();
         demo.hello();

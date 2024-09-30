@@ -1,4 +1,4 @@
-package variable;
+package BackToBasics.variable;
 
 public class VariableConversion {
 

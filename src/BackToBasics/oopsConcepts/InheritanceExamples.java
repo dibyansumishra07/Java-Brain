@@ -6,6 +6,7 @@ public class InheritanceExamples {
     }
 
     class B extends InheritanceExamples {
+
         B() {
             super();
 //            this(10); // this will throw error because in the constructor we can either have call to super() or this()
