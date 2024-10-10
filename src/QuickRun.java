@@ -9,6 +9,6 @@ import java.util.function.Function;
 
 public class QuickRun {
     public static void main(String[] args) {
-
+        System.out.println("Hellp");
     }
 }
