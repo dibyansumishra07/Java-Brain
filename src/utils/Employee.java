@@ -1,7 +1,11 @@
 package utils;
 
+import java.text.DecimalFormat;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
+import java.util.Random;
 
 public class Employee {
     private long empId;
@@ -68,12 +72,30 @@ public class Employee {
     public void setHireDate(LocalDateTime hireDate) {
         this.hireDate = hireDate;
     }
+
     public Address getAddress() {
         return address;
     }
 
     public void setAddress(Address address) {
         this.address = address;
+    }
+
+    public static List<Employee> getEmployees(int n) {
+        List<Employee> employees = new ArrayList<>();
+        for (int i = 0; i <= n; i++) {
+            // Generating Random Salary using random class
+            double salary = 50000.0 + (new Random().nextDouble() * (100.0 - 50.0));
+            salary = Double.parseDouble(new DecimalFormat("0.00").format(salary));
+
+            // Get the fractional part of the salary
+            double fractionalPart = salary - (long)salary;
+            // Multiply by 100 (or any higher power of 10 for more precision) to get integer-like value
+            int age = (int)(fractionalPart * 100); // For two decimal places
+            Employee e = new Employee(i, "John" + i, age, "Mail" + i, salary, LocalDateTime.now());
+            employees.add(e);
+        }
+        return employees;
     }
 
     @Override
@@ -91,14 +113,6 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
-                "empId=" + empId +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                ", eMail='" + eMail + '\'' +
-                ", salary=" + salary +
-                ", hireDate=" + hireDate +
-                ", address=" + address +
-                '}';
+        return "Employee{" + "empId=" + empId + ", name='" + name + '\'' + ", age=" + age + ", eMail='" + eMail + '\'' + ", salary=" + salary + ", hireDate=" + hireDate + ", address=" + address + '}';
     }
 }
