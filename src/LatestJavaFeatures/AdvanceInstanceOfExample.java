@@ -1,6 +1,6 @@
 package LatestJavaFeatures;
 
-import DesignPatterns.BehaviouralDesignPattern.Subscriber;
+import DesignPatterns.BehaviouralDesignPattern.observer.youtubeExample.Subscriber;
 
 public class AdvanceInstanceOfExample {
     public static void main(String[] args) {

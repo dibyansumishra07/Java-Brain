@@ -1,4 +1,4 @@
-package DesignPatterns.BehaviouralDesignPattern;
+package DesignPatterns.BehaviouralDesignPattern.observer.youtubeExample;
 
 public interface IChannel {
     void subscribe(Subscriber subscriber);

@@ -1,5 +1,7 @@
-package DesignPatterns.BehaviouralDesignPattern;
-
+package DesignPatterns.BehaviouralDesignPattern.observer.youtubeExample;
+/*
+* Main class which will run the concept
+* */
 public class Youtube {
     public static void main(String[] args) {
         Channel travelVlog = new Channel();

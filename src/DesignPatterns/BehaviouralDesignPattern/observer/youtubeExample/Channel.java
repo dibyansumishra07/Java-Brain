@@ -1,8 +1,10 @@
-package DesignPatterns.BehaviouralDesignPattern;
+package DesignPatterns.BehaviouralDesignPattern.observer.youtubeExample;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+* Subject or Observable
+* */
 public class Channel implements IChannel {
     List<Subscriber> subscriberList = new ArrayList<>();
     private String title;

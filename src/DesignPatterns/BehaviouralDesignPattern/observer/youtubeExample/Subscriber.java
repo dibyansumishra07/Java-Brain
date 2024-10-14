@@ -1,5 +1,7 @@
-package DesignPatterns.BehaviouralDesignPattern;
-
+package DesignPatterns.BehaviouralDesignPattern.observer.youtubeExample;
+/*
+* Observer
+* */
 public class Subscriber implements ISubscriber {
     private String name;
     private Channel channel = new Channel();
@@ -8,6 +10,9 @@ public class Subscriber implements ISubscriber {
         this.name = name;
     }
 
+    /*
+    * Push notification logic
+    * */
     @Override
     public void updateSubscriber(){
         System.out.println("Video "+name+" Uploaded.");
