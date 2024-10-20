@@ -4,23 +4,23 @@ import java.time.*;
 import java.time.format.DateTimeFormatter;
 
 /*
-* Earlier java date and time api issues
-*   - Two packages are available for same class in SQL and Java, which was confusing
-*   - To format date we are using java text package
-*   - It was not thread safe
-* New DateTime API
-*   - It is immutable.
-*   - Special package java.time
-*   - More simple to use.
-*   - Features
-*       - Local Date, Local Time, Local Date Time, Instant
-*       - Can have date and time in different format like Only date/time, machine and human-readable time
-*       - Zone ID
-*       - Month ENUM
-*       - Customize every value fo time like hr min second and millisecond
-*       - Get time according to different time zone
-*
-* */
+ * Earlier java date and time api issues
+ *   - Two packages are available for same class in SQL and Java, which was confusing
+ *   - To format date we are using java text package
+ *   - It was not thread safe
+ * New DateTime API
+ *   - It is immutable.
+ *   - Special package java.time
+ *   - More simple to use.
+ *   - Features
+ *       - Local Date, Local Time, Local Date Time, Instant
+ *       - Can have date and time in different format like Only date/time, machine and human-readable time
+ *       - Zone ID
+ *       - Month ENUM
+ *       - Customize every value to time like hr min second and millisecond
+ *       - Get time according to different time zone
+ *
+ * */
 public class DateTimeAPIJava8 {
     public static void main(String[] args) {
         learnLocalDateApi();
@@ -32,12 +32,14 @@ public class DateTimeAPIJava8 {
         durationConcept();
     }
 
-    /**
-     * Duration represents a time-based amount of time in terms of seconds and nanoseconds. It is typically used for measuring time between two Instant, LocalTime, or LocalDateTime instances, or when working with finer time units like hours, minutes, and seconds.
+    /*
+     * Duration
+     * - Represents a time-based amount of time in terms of seconds and nanoseconds.
+     * - It is typically used for measuring time between two Instant, LocalTime, or LocalDateTime instances, or when working with finer time units like hours, minutes, and seconds.
      *
      * Key Features:
-     * Represents a duration in seconds and nanoseconds.
-     * Suitable for tasks like measuring elapsed time or handling time intervals shorter than a day.
+     * - Represents a duration in seconds and nanoseconds.
+     * - Suitable for tasks like measuring elapsed time or handling time intervals shorter than a day.
      * Usage:
      * Creation: Duration.ofHours(long hours), Duration.ofMinutes(long minutes), or Duration.between(startTime, endTime) to find the duration between two Instant, LocalTime, or LocalDateTime.
      * Manipulation: Add or subtract a Duration to/from a LocalTime or LocalDateTime.
@@ -62,15 +64,16 @@ public class DateTimeAPIJava8 {
         System.out.println("New Time after adding duration: " + newTime);
     }
 
-    /**
-     *Period represents a date-based amount of time in terms of years, months, and days. It is typically used to calculate differences between two LocalDate objects or to add/subtract date-based units (like years, months, or days) to a LocalDate.
+    /*
+     * Period represents a date-based amount of time in terms of years, months, and days.
+     * It is typically used to calculate differences between two LocalDate objects or to add/subtract date-based units (like years, months, or days) to a LocalDate.
      * Key Features:
      * Represents a period as a combination of years, months, and days.
      * Useful for operations like finding age, or calculating the difference between two dates.
      * Usage:
      * Creation: Period.of(int years, int months, int days) or using Period.between(startDate, endDate) to find the difference between two LocalDate objects.
      * Manipulation: You can add or subtract a Period from a LocalDate.
-     *
+     * <p>
      * Period.between(LocalDate startDate, LocalDate endDate): Finds the period between two LocalDate instances.
      * Period.of(int years, int months, int days): Creates a Period instance.
      * plus(), minus(): You can add or subtract periods from LocalDate.
@@ -95,7 +98,7 @@ public class DateTimeAPIJava8 {
 
     /**
      * DateTimeFormatter is the replacement for the old SimpleDateFormat class. It is used to format and parse dates and times in a thread-safe and flexible way.
-     *
+     * <p>
      * Key Features:
      * Thread-Safe: Unlike SimpleDateFormat, DateTimeFormatter is immutable and thread-safe.
      * Predefined Formats: It comes with predefined formatters like ISO_LOCAL_DATE, ISO_LOCAL_TIME, ISO_LOCAL_DATE_TIME, and more.
@@ -103,7 +106,7 @@ public class DateTimeAPIJava8 {
      * Usage:
      * Formatting: Converts LocalDate, LocalTime, LocalDateTime, etc., to a String.
      * Parsing: Converts a String to LocalDate, LocalTime, LocalDateTime, etc.
-     *
+     * <p>
      * DateTimeFormatter.ISO_LOCAL_DATE: yyyy-MM-dd (e.g., 2024-09-27)
      * DateTimeFormatter.ISO_LOCAL_TIME: HH:mm:ss (e.g., 11:45:00)
      * DateTimeFormatter.ISO_LOCAL_DATE_TIME: yyyy-MM-dd'T'HH:mm:ss (e.g., 2024-09-27T11:45:00)
@@ -129,18 +132,19 @@ public class DateTimeAPIJava8 {
     private static void learnLocalTimeApi() {
         LocalTime time = LocalTime.now();
         Instant instant = Instant.now();// machine-readable or full date and time
-        ZoneId .getAvailableZoneIds(); LocalTime timeZone = LocalTime.now(ZoneId.of("GMT"));
-        LocalTime customTime = LocalTime.of(12,1,1);
+        ZoneId.getAvailableZoneIds();
+        LocalTime timeZone = LocalTime.now(ZoneId.of("GMT"));
+        LocalTime customTime = LocalTime.of(12, 1, 1);
         System.out.println(time);//17:47:19.044074
         System.out.println(instant);//2024-09-23T12:17:19.044074Z Machine readable
         System.out.println(customTime);//12:01:01
     }
 
     private static void learnLocalDateApi() {
-        LocalDate date = LocalDate.now();// Will give me only date instead of both date and time like earlier.
-        LocalDate customDate = LocalDate.of(2000,2,7);
+        LocalDate date = LocalDate.now();// * Will give me only date instead of both date and time like earlier.
+        LocalDate customDate = LocalDate.of(2000, 2, 7);// * Use this
 //        LocalDate customDate = LocalDate.of(2000,2,30);// As mentioned 30 in the date and FEB 30 is an invalid date we will get a Runtime DateTimeException
-        LocalDate customDateReadable = LocalDate.of(2000, Month.FEBRUARY,7);// Which is more readable
+        LocalDate customDateReadable = LocalDate.of(2000, Month.FEBRUARY, 7);// Which is more readable
         System.out.println(date);//2024-09-23
         System.out.println(customDate);//2000-02-07
         System.out.println(customDateReadable);//2000-02-07
