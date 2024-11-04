@@ -13,10 +13,13 @@ public class EmployeeObjectToMap {
     }
 
     private static void handleDuplicateEmployee() {
-        List<UTILS.Employee> employees = UTILS.Employee.getEmployees(10);
-        UTILS.Employee emp = new UTILS.Employee(8, "NewName", 10, "", 1.1, LocalDateTime.now());
+        List<Employee> employees = Employee.getEmployees(10);
+        Employee emp = new Employee(8, "NewName", 10, "", 1.1, LocalDateTime.now());
         employees.add(emp);
-        Map<Long, Employee> map = employees.stream().collect(Collectors.toMap(i->i.getEmpId(), i -> i, (i, j)->j));
+        Map<Long, Employee> map = employees.stream().collect(Collectors.toMap(
+                i->i.getEmpId(),
+                i -> i,
+                (old, latest)-> latest));
         map.forEach((i, j) -> System.out.println(i + "->" + j));
     }
 }

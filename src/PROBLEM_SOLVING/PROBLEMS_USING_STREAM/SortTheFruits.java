@@ -24,10 +24,9 @@ public class SortTheFruits {
         System.out.println("-------------");
 
         // ! Sort the map with the length of the value in reverse order
-        group.entrySet().stream()
-                .sorted(Comparator.comparingInt((Map.Entry<Character, List<String>> e) -> e.getValue().size()).reversed()).forEach(entry -> {
-                    System.out.println(entry.getKey() + ": " + entry.getValue());
-                });
+        group.entrySet().stream().sorted(Comparator.comparingInt((Map.Entry<Character, List<String>> e) -> e.getValue().size()).reversed()).forEach(entry -> {
+            System.out.println(entry.getKey() + ": " + entry.getValue());
+        });
         System.out.println("-------------");
     }
 }

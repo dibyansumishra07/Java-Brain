@@ -73,7 +73,7 @@ public class ConvertObjectVariableToMap {
             });
         } else {
             employees.forEach(e -> {
-                e.setAddress(addresses.stream().filter(a -> a.getEmpID() == e.getEmpId()).toList().get(0));
+                e.setAddress(addresses.stream().filter(a -> a.getEmpID() == e.getEmpId()).findFirst().get());
             });
         }
 // Print each employee with their corresponding address

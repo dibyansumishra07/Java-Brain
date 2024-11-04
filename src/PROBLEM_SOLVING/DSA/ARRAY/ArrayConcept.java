@@ -197,10 +197,11 @@ public class ArrayConcept {
             }
         }
     }
+
     /*
-    * Selection sort
-    * Complexity is O(n2)
-    * */
+     * Selection sort
+     * Complexity is O(n2)
+     * */
     public static void selectionSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             int minIndex = i;
@@ -227,8 +228,8 @@ public class ArrayConcept {
     }
 
     /*
-    * Complexity: O(n log n)
-    * */
+     * Complexity: O(n log n)
+     * */
     public static void merge(int[] arr, int left, int mid, int right) {
         int n1 = mid - left + 1;
         int n2 = right - mid;
@@ -262,10 +263,11 @@ public class ArrayConcept {
             k++;
         }
     }
+
     /*
-    * Two-pointer Technique
-    * This is a popular technique for solving array-related problems, such as finding pairs or triplets with certain properties.
-    * */
+     * Two-pointer Technique
+     * This is a popular technique for solving array-related problems, such as finding pairs or triplets with certain properties.
+     * */
     public static boolean hasPairWithSum(int[] arr, int target) {
         int left = 0, right = arr.length - 1;
         while (left < right) {

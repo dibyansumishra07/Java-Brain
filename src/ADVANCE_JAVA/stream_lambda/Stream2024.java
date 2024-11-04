@@ -3,6 +3,7 @@ package ADVANCE_JAVA.stream_lambda;
 import ADVANCE_JAVA.stream_lambda.streamWithComplexObjects.Product;
 
 import java.util.*;
+import java.util.function.ToIntFunction;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -36,9 +37,9 @@ public class Stream2024 {
         // Find multiply of 2 of all elements
         List<Integer> newList = list.stream().map(n -> n * 2).toList();
         // Find Sum of all numbers
-        System.out.println("Stream-Sum IntStream or MapToInt: "+list.stream().filter(i -> i % 2 != 0).mapToInt(i -> i).sum());
-        System.out.println("Sum of stream using reduce: "+list.stream().reduce(0, Integer::sum));
-        System.out.println("Average of stream: "+list.stream().mapToInt(i->i).average());
+        System.out.println("Stream-Sum IntStream or MapToInt: " + list.stream().filter(i -> i % 2 != 0).mapToInt(i->i).sum());
+        System.out.println("Sum of stream using reduce: " + list.stream().reduce(0, Integer::sum));
+        System.out.println("Average of stream: " + list.stream().mapToInt(i -> i).average());
         // Make all strings in a list to upper case or lower case
         System.out.println("Names in upper case: " + names.stream().map(String::toUpperCase).toList());
         System.out.println("Distinct numbers: " + list.stream().distinct().toList());
@@ -47,13 +48,14 @@ public class Stream2024 {
         // The below snippet remove elements from the beginning of stream and give us rest as per number provided
         System.out.println("Reduce or limit the list to size of 3: " + list.stream().skip(2).toList());
         // Checking how many even elements in the stream
-        System.out.println("Total Even number in the list is : " + list.stream().filter(i->i%2==0).count());
+        System.out.println("Total Even number in the list is : " + list.stream().filter(i -> i % 2 == 0).count());
         // TODO: Data Findings
         System.out.println("Maximum number of elements: " + list.stream().max(Integer::compareTo).get());
         System.out.println("Minimum number of elements: " + list.stream().min(Integer::compareTo).get());
     }
+
     // Data Checks
-    private static void dataCheckUsingStream(List<Integer> list){
+    private static void dataCheckUsingStream(List<Integer> list) {
         // Check if all elements in the list are even
         boolean allEven = list.stream().allMatch(i -> i % 2 == 0);
         System.out.println("All elements in the list are even: " + allEven);
@@ -95,26 +97,27 @@ public class Stream2024 {
         Stream<Object> build = Stream.builder().build();
         // 4 Int stream
         IntStream stream = Arrays.stream(new int[]{1, 2, 3});
-        Stream<String> charStream = Arrays.stream(new String[]{"A","B","C","D"});
+        Stream<String> charStream = Arrays.stream(new String[]{"A", "B", "C", "D"});
         //5 Collection list, set
         List<Integer> list2 = Arrays.asList(2, 40, 50, 60, 78, 79, 77, 65);
         list2.stream().forEach(i -> System.out.println(i));
     }
-    public void groupByStream(List<Integer> list){
+
+    public void groupByStream(List<Integer> list) {
         Map<Integer, List<Integer>> groupedMap = list.stream().collect(Collectors.groupingBy(Integer::intValue));
         groupedMap.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
     }
 
     // Problem Solving Using Stream
-    public static void findRepetitiveCharacter(String name){
+    public static void findRepetitiveCharacter(String name) {
         List<Character> characters = name.chars().mapToObj(c -> (char) c).toList();
         Map<Character, Long> characterCountMap = characters.stream().collect(Collectors.groupingBy(c -> c, Collectors.counting()));
         characterCountMap.entrySet().stream()
-               .filter(entry -> entry.getValue() > 1)
-                .peek(entry -> System.out.println("Peek: "+entry))
-               .forEach(entry -> System.out.println("Character: " + entry.getKey() + ", Count: " + entry.getValue()));
+                .filter(entry -> entry.getValue() > 1)
+                .peek(entry -> System.out.println("Peek: " + entry))
+                .forEach(entry -> System.out.println("Character: " + entry.getKey() + ", Count: " + entry.getValue()));
     }
-//    TODO: Method for custom collector
+    // TODO: Method for custom collector
 
 
     private static void differentObjectStreams(Stream<Object> streamWithDifferentDataTypes) {
