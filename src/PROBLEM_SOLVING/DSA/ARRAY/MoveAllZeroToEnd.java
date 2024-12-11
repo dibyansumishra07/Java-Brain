@@ -48,7 +48,11 @@ public class MoveAllZeroToEnd {
         System.out.println(sb);
     }
 
-    // Function which pushes all zeros to end of an array
+    /*
+    * Loop over the array and check all non-zero elements and replace them with current index
+    * Make a count of index, how many index are now full
+    * Run another while loop
+    * */
     static void pushZerosToEnd(int[] arr) {
 
         // Count of non-zero elements

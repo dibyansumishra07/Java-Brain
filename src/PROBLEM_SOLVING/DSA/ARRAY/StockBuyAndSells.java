@@ -3,8 +3,6 @@ package PROBLEM_SOLVING.DSA.ARRAY;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.function.Function;
-import java.util.function.ToIntFunction;
 
 /*
  * Bruteforce
@@ -24,6 +22,11 @@ public class StockBuyAndSells {
 //        bestTimeToBuyAndSellFailed(arr);
     }
 
+    /*
+    * Keep first element of the array and store as a minimum value and then inside loop keep checking for the lowest value
+    *
+    *
+    * */
     private static void bestTimeToBuyAndSellOptimal(int[] arr, int length) {
         int lowPriceSoFar = arr[0];
         int profitSoFar = 0;

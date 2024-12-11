@@ -10,6 +10,10 @@ public class ArrayIsASubarray {
         System.out.println(isSubArray(array, subarray2));  // Output: false
     }
 
+    /*
+    * Time Complexity: O(M*N): Looping over N inside M
+    * Space Complexity: O(1)
+    * */
     public static boolean isSubArray(int[] parentArray, int[] subArray) {
         // If the sub array is longer than the parentArray, it cannot be a sub array
         if (subArray.length > parentArray.length) {

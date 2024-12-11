@@ -1,7 +1,5 @@
 package PROBLEM_SOLVING.DSA.ARRAY;
 
-import java.util.Arrays;
-
 /* *
  * The MinimumFuelCost class provides a solution to calculate the minimum total cost
  * required to meet the fuel requirements over a series of days based on varying fuel prices.
@@ -59,21 +57,6 @@ public class MinimumFuelCost {
     public static int solve(int N, int[] A, int[] B) {
         int totalCost = 0;
         int currentFuelCost = Integer.MAX_VALUE;
-
-        for (int i = 0; i < N; i++) {
-            if (A[i] < currentFuelCost) {
-                currentFuelCost = A[i];
-            }
-            totalCost += B[i] * currentFuelCost;
-        }
-
-        return totalCost;
-    }
-
-    public static int solveBruteForce(int N, int[] A, int[] B) {
-        int totalCost = 0;
-        int currentFuelCost = Integer.MAX_VALUE;
-        int totalUnitReq = Arrays.stream(B).sum();
 
         for (int i = 0; i < N; i++) {
             if (A[i] < currentFuelCost) {

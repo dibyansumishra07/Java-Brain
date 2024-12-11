@@ -30,7 +30,7 @@ public class TwoSums {
         return result;
     }
 
-    public static int[] twoSumONSquare(int[] nums, int target) {
+    public static int[] twoSumOofNSquare(int[] nums, int target) {
         int[] result = new int[2];
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {

@@ -68,7 +68,19 @@ public class DepartmentHasMultipleStudents {
 
         // Print departments with more than 2 students
         System.out.println("Departments with more than two students:");
-        departmentsWithMoreThanTwoStudents.forEach(System.out::println);
+        departmentsWithMoreThanTwoStudents.forEach(System.out::print);
+
+        // ! Trying flatmap
+        System.out.println("\nFLATMAP =><=");
+        Map<Integer, Long> deptIdAndStudentCount = studentList.stream()
+                .flatMap(student -> student.deptIds.stream())// Flatten the department ids
+                .collect(Collectors.groupingBy(
+                        dept -> dept,
+                        Collectors.counting()
+                ));
+        deptIdAndStudentCount.entrySet().stream()
+                .filter(entry -> entry.getValue() >= 2)
+                .forEach(entry -> System.out.println("Department ID: " + entry.getKey() + ", Number of students: " + entry.getValue()));
 
     }
 }
