@@ -9,12 +9,12 @@ import java.util.stream.Collectors;
 
 public class ConvertObjectVariableToMap {
     public static void main(String[] args) {
-        Employee e1 = new Employee(1, "Dibyansu", 24, "dm@gmail.com", 15000.00, LocalDateTime.now());
-        Employee e2 = new Employee(2, "MK", 29, "mk@gmail.com", 14000.00, LocalDateTime.now());
-        Employee e3 = new Employee(3, "Shruti", 25, "shr@gmail.com", 13000.00, LocalDateTime.now());
-        Employee e4 = new Employee(4, "Bala", 26, "bala@gmail.com", 12000.00, LocalDateTime.now());
-        Employee e5 = new Employee(5, "John", 45, "john@email.com", 11000.00, LocalDateTime.now());
-        Employee e6 = new Employee(6, "JohnDuplicate", 45, "john@email.com", 11000.00, LocalDateTime.now());
+        Employee e1 = new Employee(1, "D1","Dibyansu", 24, "dm@gmail.com", 15000.00, LocalDateTime.now());
+        Employee e2 = new Employee(2, "D1","Shruti", 29, "shr@gmail.com", 14000.00, LocalDateTime.now());
+        Employee e3 = new Employee(3, "D2","MK", 25, "mk@gmail.com", 13000.00, LocalDateTime.now());
+        Employee e4 = new Employee(4, "D2","Bala", 26, "bala@gmail.com", 12000.00, LocalDateTime.now());
+        Employee e5 = new Employee(5, "D3","John", 45, "john@email.com", 11000.00, LocalDateTime.now());
+        Employee e6 = new Employee(6, "D3","JohnDuplicate", 45, "john@email.com", 11000.00, LocalDateTime.now());
 
         Address a1 = new Address(1, 1, "Street1", "City1", "state1", 754101);
         Address a2 = new Address(1, 2, "Street2", "City2", "state2", 754102);

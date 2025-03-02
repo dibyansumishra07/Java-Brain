@@ -1,4 +1,5 @@
 public class QuickRun {
+    private static String test= "test";
     public static void main(String[] args) {
         String s = "AACCDDDBBBE";
 
@@ -15,5 +16,3 @@ public class QuickRun {
         }
     }
 }
-
-

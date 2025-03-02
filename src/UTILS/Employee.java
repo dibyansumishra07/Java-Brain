@@ -9,6 +9,7 @@ import java.util.Random;
 
 public class Employee {
     private long empId;
+    private String departmentId;
     private String name;
     private int age;
     private String eMail;
@@ -16,8 +17,9 @@ public class Employee {
     private LocalDateTime hireDate;
     private Address address;
 
-    public Employee(long empId, String name, int age, String eMail, double salary, LocalDateTime hireDate) {
+    public Employee(long empId, String departmentId, String name, int age, String eMail, double salary, LocalDateTime hireDate) {
         this.empId = empId;
+        this.departmentId = departmentId;
         this.name = name;
         this.age = age;
         this.eMail = eMail;
@@ -31,6 +33,14 @@ public class Employee {
 
     public void setEmpId(long empId) {
         this.empId = empId;
+    }
+
+    public String getDepartmentId() {
+        return departmentId;
+    }
+
+    public void setDepartmentId(String departmentId) {
+        this.departmentId = departmentId;
     }
 
     public String getName() {
@@ -90,9 +100,9 @@ public class Employee {
 
             // Get the fractional part of the salary
             double fractionalPart = salary - (long)salary;
-            // Multiply by 100 (or any higher power of 10 for more precision) to get integer-like value
+            // Multiply by 100 (or any higher power of 10 for more precision) to get integer-like valuė
             int age = (int)(fractionalPart * 100); // For two decimal places
-            Employee e = new Employee(i, "John" + i, age, "Mail" + i, salary, LocalDateTime.now());
+            Employee e = new Employee(i, "D1", "John" + i, age, "Mail" + i, salary, LocalDateTime.now());
             employees.add(e);
         }
         return employees;
@@ -113,6 +123,15 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" + "empId=" + empId + ", name='" + name + '\'' + ", age=" + age + ", eMail='" + eMail + '\'' + ", salary=" + salary + ", hireDate=" + hireDate + ", address=" + address + '}';
+        return "Employee{" +
+                "empId=" + empId +
+                ", departmentId=" + departmentId +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", eMail='" + eMail + '\'' +
+                ", salary=" + salary +
+                ", hireDate=" + hireDate +
+                ", address=" + address +
+                '}';
     }
 }

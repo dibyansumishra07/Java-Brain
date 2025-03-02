@@ -37,8 +37,8 @@ public class HashMapConcept {
     private static void learnHashMapWithObject() {
         System.out.println("----------------------Concept starts --------------------");
         System.out.println("Creating two unique employee objects E1 and E2 where hashcode and equals overridden with empID");
-        Employee e1 = new Employee(1,"Dibyansu", 25, "dib@gmail.com", 1000.00, LocalDateTime.now());
-        Employee e2 = new Employee(2,"Shruti", 24, "shruti@gmail.com", 2000.00, LocalDateTime.now());
+        Employee e1 = new Employee(1,"D1","Dibyansu", 25, "dib@gmail.com", 1000.00, LocalDateTime.now());
+        Employee e2 = new Employee(2,"D2","Shruti", 24, "shruti@gmail.com", 2000.00, LocalDateTime.now());
 
         System.out.println("Creating two maps hash and tree map");
         HashMap<Employee, String> hashMapWithObjectKey = new HashMap<>();

@@ -14,7 +14,7 @@ public class EmployeeObjectToMap {
 
     private static void handleDuplicateEmployee() {
         List<Employee> employees = Employee.getEmployees(10);
-        Employee emp = new Employee(8, "NewName", 10, "", 1.1, LocalDateTime.now());
+        Employee emp = new Employee(8, "D1", "NewName", 10, "", 1.1, LocalDateTime.now());
         employees.add(emp);
         Map<Long, Employee> map = employees.stream().collect(Collectors.toMap(
                 i->i.getEmpId(),
